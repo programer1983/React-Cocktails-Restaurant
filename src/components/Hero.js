@@ -1,7 +1,7 @@
 
 const Hero = () => {
   return (
-    <h1>Hero</h1>
+    <h2>Hero</h2>
   )
 }
 

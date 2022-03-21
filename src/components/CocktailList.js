@@ -1,7 +1,7 @@
 
 const CocktailList = () => {
   return (
-    <h1>CocktailList</h1>
+    <h2>CocktailList</h2>
   )
 }
 
