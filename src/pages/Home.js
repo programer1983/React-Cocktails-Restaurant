@@ -1,7 +1,12 @@
+import CocktailList from "./../components/CocktailList"
+import SearchForm from "./../components/SearchForm"
 
 const Home = () => {
   return (
-    <h2>Home</h2>
+    <main>
+      <CocktailList />
+      <SearchForm />
+    </main>
   )
 }
 
