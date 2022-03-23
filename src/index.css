@@ -143,3 +143,28 @@ img {
   background: var(--primaryLightColor);
   color: var(--primaryColor);
 }
+
+.about-section {
+  width: var(--smallWidth);
+  max-width: var(--maxWidth);
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+  display: block;
+}
+
+
+.about-section p {
+  line-height: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
