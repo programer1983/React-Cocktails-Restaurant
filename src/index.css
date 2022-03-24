@@ -241,4 +241,48 @@ img {
   display: grid;
   row-gap: 2rem;
   column-gap: 2rem;
+  /* align-items: start; */ 
+}
+
+
+.cocktail {
+  background: var(--mainWhite);
+  margin-bottom: 2rem;
+  box-shadow: var(--lightShadow);
+  transition: var(--mainTransition);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: var(--mainBorderRadius);
+}
+
+.cocktail:hover {
+  box-shadow: var(--darkShadow);
+}
+
+.cocktail img {
+  height: 20rem;
+  object-fit: cover;
+  border-top-left-radius: var(--mainBorderRadius);
+  border-top-right-radius: var(--mainBorderRadius);
+}
+
+.cocktail-footer {
+  padding: 1.5rem;
+}
+
+.cocktail-footer h3, h4, p {
+  margin-bottom: 0.3rem;
+}
+
+.cocktail-footer h3 {
+  font-size: 2rem;
+}
+
+.cocktail-footer p {
+  color: var(--darkGrey);
+  margin-bottom: 0.5rem;
+}
+
+.btn-details {
+  padding: 0.25rem 0.4rem;
 }
