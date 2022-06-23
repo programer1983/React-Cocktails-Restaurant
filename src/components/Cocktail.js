@@ -4,6 +4,7 @@ import {Link} from "react-router-dom"
 const Cocktail = ({image, id, name, info, glass}) => {
   return (
     <article className="cocktail">
+      <Link to={`/cocktail/${id}`}>
       <div className="img-container">
         <img src={image} alt={name} />
       </div>
@@ -18,6 +19,7 @@ const Cocktail = ({image, id, name, info, glass}) => {
            details
         </Link>
       </div>
+      </Link>
     </article>
   )
 }
